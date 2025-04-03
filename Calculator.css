@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+.card {
+    background-color: #fff;
+}
+
+body.dark-theme .card {
+    background-color: #444;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.dark-theme .btn {
+    background-color: #555;
+    color: #fff;
+}
+
+#historyList {
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+}
